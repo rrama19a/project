@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +15,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text("Hello!dtfuyghijlok;ljhgfd")
+      home: Scaffold(appBar: AppBar (backgroundColor: Colors.grey,),
+      body: Container(color: Colors.green, child: Text("ramzanzanzan")),)
       );
   }
 }
